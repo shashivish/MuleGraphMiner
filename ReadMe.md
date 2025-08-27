@@ -62,4 +62,19 @@ Example command line:
 ```
 
 
+## Generate data 
 
+Dummy data will be generated into data folder.
+```shell
+cd utils/data_generataor 
+python generate_data.py 
+python noise_data.py 
+
+```
+
+## Plot data 
+
+```shell
+cd utils/plot 
+python plot_graph.py 
+```
