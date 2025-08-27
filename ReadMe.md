@@ -7,8 +7,7 @@ Detecting Money Mule Networks in Financial Transaction Graphs Using Graph Neural
 MuleGraphMiner is a research toolkit designed to identify complex money mule networks characterized by multiple external entities funneling funds through internal bank accounts (mules) and ultimately to common beneficiaries. This project models the mule detection problem as a temporal, heterogeneous, directed multigraph and leverages edge-aware graph neural network architectures combined with real-time subgraph feature extraction.
 
 
-![Flow Graph](./images/transactionPattern.png)
-
+![Flow Graph](images/transactions.png)
 
 This repository includes:
 
