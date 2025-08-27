@@ -6,10 +6,10 @@ from datetime import datetime, timedelta
 fake = Faker()
 
 def generate_synthetic_transactions_with_overlap(
-        num_campaigns=2,
+        num_campaigns=4,
         externals_per_campaign=4,
-        internals_per_campaign=4,
-        beneficiaries_per_campaign=2):
+        internals_per_campaign=6,
+        beneficiaries_per_campaign=3):
     records = []
     base_time = datetime.now()
 
